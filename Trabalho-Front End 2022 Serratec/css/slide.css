@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    
+
+}
+.carrossel{
+   
+    left: 500px;
+    box-shadow: 2px 2px 4px black;
+    overflow:hidden;
+    padding-left: 150 px;
+    height: 500px;
+    width: 100%;
+}
+.slide{
+    
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    transform: translate(0);
+}
+.img{
+    object-fit: cover;
+    height: 500px;
+    width: 1200px;
+}

@@ -1,0 +1,210 @@
+.sobre-nos{
+    min-height: calc(100vh - (var(--footerHeight)));
+    background-color: #DEE3D9;
+    font-family: 'Montserrat', sans-serif;    
+    padding: 2rem 5%;
+    padding-top: calc(var(--headerHeight) + 2rem);
+}
+
+.sobre-nos h2 {
+    margin-bottom: 2rem;    
+}
+
+.pessoa-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 4rem;
+    column-gap: .5rem;
+    padding-bottom: 2rem;
+
+}
+
+.pessoa-container-item { 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 17.875rem;
+    height: 36rem;    
+    padding: 1.5rem; /*margem interna, pra não grudar no cantinho*/
+    background-color: #C4C4C4;
+    margin-bottom: 1rem; /*margem inferior*/
+    border-radius: 1rem;
+    text-align: center;
+
+    background-color: white;
+    
+    border-radius: 5rem;
+    box-shadow: 0rem 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
+}
+
+.pessoa-container-item img {
+    margin-bottom: 1rem;
+    height: 150px;
+    width: 150px;   
+    border-radius: 40%;
+}
+
+.pontinho{
+    margin-left: 67px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.pessoa-container-item a {
+    display:inline-flex;
+    margin-right: 30px;
+    justify-content: space-between;
+    text-decoration: none;
+    
+}
+
+
+
+.pessoa-container-item a:link {
+    list-style:none;
+    list-style: none;
+    font-size: 25px;
+    font-weight: 500;
+   
+    color: rgb(133, 116, 43);  
+}
+
+.pessoa-container-item a:hover {
+    color: darkgreen;    
+}
+
+.pessoa-container-item a:visited {
+    color: rgb(133, 116, 43);   
+}
+
+.descricao-pessoa {
+    margin-bottom: 1rem;
+    margin-top: 1rem;   
+}
+#Footer {
+    background-image: radial-gradient( circle farthest-corner at 7.2% 13.6%,  rgba(37,249,245,1) 0%, rgba(8,70,218,1) 90% );
+    color: white;
+    padding-top: 30px;
+    width: 100%;
+}
+
+.footer-copyright {
+    background-image: radial-gradient( circle farthest-corner at 7.2% 13.6%,  rgba(37,249,245,1) 0%, rgba(8,70,218,1) 90% );
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: center;
+  
+}
+
+
+#Footer .row {
+    margin-bottom: 10px;
+}
+.rodape-logo{
+    border-radius: 50%;
+    margin-top: 4px;
+    margin-left: 25%;
+    width: 20vh;
+    display: block;
+    border: none;
+    border-radius: 50%;
+}
+#Footer .navbar-brand {
+    margin-top: 45px;
+    height: 65px;
+}
+
+#Footer .footer-copyright p {
+    margin: 10px;
+    color: whitesmoke;
+}
+
+#Footer ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+    
+}
+
+#Footer h5 {
+    font-size: 18px;
+    color: white;
+    font-weight: 700;
+    margin-top: 30px;
+    
+}
+
+#Footer h2 a{
+    font-size: 50px;
+    text-align: center;
+    color: #fff;
+}
+
+#Footer a {
+   
+    text-decoration: none;
+    color:black;
+    font-weight: 500;
+}
+
+#Footer a:hover,
+#Footer a:focus {
+    text-decoration: none;
+    color: white;
+}
+
+#Footer .social-networks {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 16px;
+}
+
+#Footer .social-networks a {
+    font-size: 32px;
+    color: #f9f9f9;
+    padding: 10px;
+    transition: 0.2s;
+}
+
+#Footer .social-networks a:hover {
+    text-decoration: none;
+}
+
+#Footer .facebook:hover {
+    color: #0077e2;
+}
+
+#Footer .instagram:hover {
+    color: purple;
+    
+}
+
+#Footer .linkedin:hover {
+    color: #00aced;
+}
+
+#Footer .btn {
+    color: white;
+    background-color: #8b0323;
+    border-radius: 20px;
+    border: none;
+    width: 130px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    line-height: 25px;
+}
+
+/* @media screen and (max-width: 767px) { */
+    #Footer {
+        text-align: center;
+}
+
+.pessoa-container > ul{
+    list-style: none;
+    padding: 1;
+    margin: 0 0;
+
+}

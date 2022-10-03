@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>G7News</title>  
+    <link rel="stylesheet" href="css/bootstrap.min.css">   
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">   
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/footer-with-button-logo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="img/g7" href="img/g7.jpg">
+    <link rel="stylesheet" href="js/login.js">
+    <link rel="stylesheet" href="css/slide.css">
+    <script src="js/slide.js" defer></script>
+    <script src="js/login.js"></script>
+    <header>
+        <h1 id="logo" class="logo-imagem">G7 News </h1>
+     
+        <form>
+            <input class="placeholder-pesquisar" placeholder='Pesquisar' />
+            <button class="botao-pesquisar" type="button" >Pesquisar</button>
+        </form>
+    </header>
+
+<body>
+
+    <header class='topo'>
+        <div id="loginpop" class="lpopup">
+            <form class="conteudo-popup" action="">
+                <div class="container1">
+                    <button class="button-cadastrar" type="button" class="btn btn-light btn-sm"><a class="botao-cadastro" href="cadastro.html" class="botao"
+                            target="_blank">CADASTRAR</a></button>
+                    <div class="login">
+
+                        <label class="email-texto"><b>Email</b></label>
+                        <input id="caixa_email_login" type="text" placeholder="Introduza Email" name="email" required>
+
+                        <label class="senha-texto"><b>Senha</b></label>
+                        <input id="caixa_password_login" type="password" placeholder="Introduza Senha" name="psw"
+                            required>
+
+                        <input type="checkbox" checked="checked"> Armazenar os dados!
+                    </div>
+                    <div class="clearfix">
+                        <button type="button" class="btn btn-danger btn-sm"
+                            onclick="document.getElementById('loginpop').style.display='none'"
+                            class="cancelbtn">Cancelar</button>
+                        <button type="button" class="btn btn-primary btn-sm" onClick="login()">Iniciar</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </header>
+    <div class="carrossel">
+        <div class="slide" id="img">
+            <img src="https://mega.ibxk.com.br/2014/1/megacurioso/485674022003013705_mega.jpg?ims=1200x480" alt="">
+            <img src="https://mega.ibxk.com.br/2018/07/06/06175109196240.jpg?ims=1200x480" alt="">
+            <img src="https://s2.glbimg.com/2UkfGUrfybTFjEeNIt-AbirjR-E=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2021/U/z/QNBDQMQAaVRnI2dT6WRQ/tse.jpg"
+                alt="">
+            <img src="https://cdn.vox-cdn.com/thumbor/jngv_10X8QgwNaba-U6QV9eqqr8=/0x0:1280x720/1200x480/filters:focal(538x258:742x462)/cdn.vox-cdn.com/uploads/chorus_image/image/57902347/mario_galaxy_physics.0.0.jpg"
+                alt="">
+        </div>
+    </div>
+    <div class="sidebar">
+        <p class="sidebarTitulo">Sites parceiros</p>
+        <a href="https://ge.globo.com/"><i class="fa fa-soccer-ball-o"></i> Esportes</a>
+        <a href="https://www.climatempo.com.br/previsao-do-tempo/15-dias/cidade/317/petropolis-rj"><i
+                class="fa fa-sun-o"></i> Clima</a>
+        <a href="https://www.cinemaxx.com.br/"><i class="fa fa-film"></i> Cinema</a>
+        <a href="https://123milhas.com/"><i class="fa fa-plane"></i> Viagens</a>
+        <a href="https://www.petz.com.br/"><i class="fa fa-paw"></i>Pets</a>
+    </div>
+    <div class="sidebarDir">
+        <h3 class="side-direita-noticia1">Cinema</h3>
+        
+
+        <div class="zoom"> 
+        <a href="https://www.adorocinema.com/filmes/filme-218265/">
+        <img class="side-direita-noticia1-imagem" src="./img/cinemaimg.jpeg" alt="">
+        </a>
+    </div>
+        <h3 class="side-direita-noticia1-rodape"> Novo filme dos vingadores arrecada cerca de 15 milhões de doláres em estréia</h3>
+        <h3 class="side-direita-noticia2">Música</h3>
+        <iframe class="side-direita-noticia2-video"  src="https://www.youtube.com/embed/jfKfPfyJRdk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <h3 class="side-direita-noticia2-rodape">Confira uma playlist ao vivo de músicas para você relaxar enquanto se intera sobre todos os tipos de assuntos em nosso portal G7 News<br></h3>
+        <div class="zoom"> 
+            <a href="">
+                <img class="side-direita-rodape-logo" src="./img/g7.jpg" alt="">
+            </a>
+    </div>
+    </div>
+    <main>
+        <section class="principal-noticia-1">
+            <h2>Lateral-esquerda do Fluminense ganha disputa em reta final de Brasileiro </h2>
+            <div>
+                <h3>Esporte e Lazer</h3>
+                <p>Cristiano aproveita mais uma chance na equipe titular e pode ganhar sequência nos jogos finais da
+                    competição; Técnico Fernando Diniz ressalta que posição está aberta</p>
+                <p>A grande questão do Fluminense na temporada foi e segue sendo a lateral-esquerda. O técnico
+                    Fernando
+                    Diniz deixou claro em coletiva após goleada sobre o Juventude, na última quarta-feira, que a
+                    disputa
+                    está aberta na posição. Isto porque Cristiano, que assumiu a posição de Caio Paulista, voltou a
+                    ter
+                    uma atuação regular e pode ganhar chance mais chances em reta final de Campeonato Brasileiro.
+                </p>
+                <li><a
+                        href="https://www.lance.com.br/fluminense/lateral-esquerda-do-fluminense-ganha-disputa-em-reta-final-de-brasileiro.html">clique
+                        aqui e saiba mais.</a></li>
+            </div>
+        </section>
+        <aside>
+            <h2>Agência da ONU alerta para derretimento inédito de glaciares suíços </h2>
+            <div>
+                <h3>Clima e Meio Ambiente</h3>
+                <p>Perda de mais de 6% do volume de gelo foi confirmada pela Comissão Criosférica da Academia Suíça
+                    de
+                    Ciências; Organização Meteorológica Mundial ressalta ano calamitoso para as geleiras alpinas.
+                </p>
+                <p>A Organização Meteorológica Mundial, OMM, considera 2022 “um ano catastrófico para glaciares dos
+                    Alpes”. A declaração ocorre após a confirmação da perda das geleiras suíças em mais de 6% do seu
+                    volume. A redução se deve à falta de neve no inverno e ao calor extremo no verão.
+
+                    Nos anos em que a perda da massa de gelo foi de 2%, a situação foi classificada de “extrema”. O
+                    derretimento das geleiras é um dos indicadores do Estado do Clima da OMM. </p>
+                <li><a href="https://news.un.org/pt/story/2022/09/1802751">clique aqui e saiba mais.</a></li>
+            </div>
+        </aside>
+    </main>
+    <div class="container2">
+        <div class="newspage h-10">
+            <div class="row">
+                <div class="col-md-8 col-lg-6">
+                    <div class="card card-inverse card-primary">
+                        <div class="zoom"> 
+                        <img src="img/serratec.webp" class="img-fluid" alt="Responsive image">
+                    </div>
+                    </div>
+                    <h7 style="margin-top: 1rem; float: left"> Notícias </h7>
+                    <h7 style="margin-top: 1rem; float: right"> 28/09/2022 </h7>
+                    <hr class="style14">
+                    <h1 id="titulo" class="titulo">Grupo Serratec</h1>
+                    <p style="margin-top: 2rem;">Moradores da Região Serrana do Rio interessados no mercado de
+                        Tecnologia da
+                        Informação (TI) terão a oportunidade de receber formação profissional e gratuita na área por
+                        meio do
+                        Programa de Residência em TIC/Software do Serratec - Parque Tecnológico da Região Serrana.
+
+                        Para fazer parte das novas turmas é preciso se inscrever até o dia 27 de junho pelo site do
+                        programa.
+
+                        São 148 vagas destinadas, preferencialmente, aos moradores de Petrópolis, Teresópolis e cidades
+                        vizinhas. As aulas são online e ao vivo, começam em agosto e vão até dezembro, no total de 770
+                        horas. Os candidatos não precisam ter conhecimento prévio em tecnologia, mas é preciso ter
+                        concluído
+                        o ensino médio e ter acima de 17 anos.
+
+
+                        Mulheres, pessoas com deficiência, pessoas negras e quem estudou em escola pública terão
+                        prioridade.
+
+                        O setor é um dos que mais contratou na última década em todo o mundo e deverá seguir contratando
+                        pelos próximos anos, inclusive no Brasil, mas ainda há carência desse tipo de profissional.</p>
+                </div>
+                <div class="col-md-4 col-lg-6">
+                    <div class="col-md-12 pb-2">
+                        <div class="row h-100">
+                            <div id="imagem1-verde" class="card bg-success col-md-4 mr-0 mr-md-2">
+                                <div class="zoom"> 
+                                <img src="img/FrontEnd.jpg" class="img-fluid" alt="Responsive image">
+                            </div>
+                            </div>
+                            <p>Torne-se um Desenvolvedor Front-end com o Curso de HTML5 e CSS3 Online
+                                Você já olhou para algum site e se perguntou como toda aquela estrutura funciona? .</p>
+                        </div>
+                    </div>
+                    <div class="col-md-12 pb-2">
+                        <div class="row h-100">
+                            <div class="card bg-success col-md-4 mr-0 mr-md-2">
+                                <div class="zoom"> 
+                                <img src="img/clima.jpg" class="img-fluid" alt="Responsive image">
+                            </div>
+                            </div>
+                            <p> A temperatura começa a ficar elevada em Petrópolis, como mostra o registro feito por
+                                Alcir
+                                Aglio no Terminal Rodoviário Imperatriz Leopoldina, no Centro. A movimentação de
+                                passageiros
+                                no local é grande, mesmo com ao frio registrado nas primeiras horas desta
+                                segunda-feira
+                                (26).</p>
+                        </div>
+                    </div>
+                    <div class="col-md-12 pb-2">
+                        <div class="row h-100">
+                            <div class="card bg-success col-md-4 mr-0 mr-md-2">
+                                <div class="zoom"> 
+                                <img src="img/handball.jpg" class="img-fluid" alt="Responsive image">
+                            </div>
+                            </div>
+                            <p>Handebol, Vôlei e Futebol de Campo. Estas foram as modalidades que tiveram jogos
+                                disputados em Petrópolis neste fim de semana. Ao todo, mais de 550 atletas estiveram
+                                envolvidos nas partidas. No Campeonato de Handebol, foi realizada a quarta rodada da
+                                fase classificatória da competição. Já no Vôlei Feminino, aconteceu o terceiro dia de
+                                jogos. Pelo Futebol de Campo, foi disputada a última rodada da fase classificatória no
+                                sub-11 e sub-13.</p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="content">
+    </div>
+    <footer id="Footer">
+        <div class="container3">
+            <div class="row">
+                <div class="col-sm-3">
+                    <img class="rodape-logo" src="img/g7.jpg" class="img-fluid" alt="Responsive image">
+                </div>
+                <div class="col-sm-2">
+                    <h5>Inicio</h5>
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="https://www.portaldaindustria.com.br/senai/">Cursos Senai</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-2">
+                    <h5>Sobre-nós</h5>
+                    <ul>
+                        <li><a href="https://serratec.org/">Empresa Serratec</a></li>
+                        <li><a href="sobreNos.html">Alunos do G7 News</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-2">
+                    <h5>Suporte</h5>
+                    <ul>
+                        <li><a href="">Telefones</a></li>
+                        <li><a href="https://chat.whatsapp.com/F8Xw3NfObtoEp2CP1uJ8O6">Whatsapp do Grupo</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <div class="social-networks">
+                        <a href="https://www.linkedin.com/company/serratecoficial/" class="linkedin"><i
+                                class="fa fa-linkedin"></i></a>
+                        <a href="https://pt-br.facebook.com/serratecoficial/" class="facebook"><i
+                                class="fa fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/serratecoficial/" class="instagram"><i
+                                class="fa fa-instagram"></i></a>
+                    </div>
+                    <a href="indentidade.html">
+                        <button type="button" class="btn btn-default">Contato</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <p id="footer-copyright-texto">© 2022 Copyright - Programadores Grupo 7</p>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </head>
+</body>
+
+</html>

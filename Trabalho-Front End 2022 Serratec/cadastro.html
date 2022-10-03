@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Clientes</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <main class="layout-assinatura">
+            <form action="#">
+                <h1 class="titulo__assinatura">Formulario de Cadastro!</h1>
+                <div class="row">
+                    <div class="my-3 col-sm-12 col-md-12">
+                        <label for="nome" class="form-label">Nome:</label>
+                        <input type="text" class="form-control" placeholder="Preencha o nome" required="true"
+                            maxlength="30">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="my-3 col-sm-12 col-md-12">
+                        <label for="email" class="form-label">Email:</label>
+                        <input type="email" class="form-control" placeholder="Preencha o email" required="true"
+                            maxlength="40">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="my-3 col-sm-3 col-md-3">
+                        <label for="telefone" class="form-label">Telefone</label>
+                        <input id="telefone" type="tel" class="form-control" placeholder="Preencha o telefone"
+                            maxlength="11">
+                    </div>
+                    <div class="my-3 col-sm-3 col-md-3">
+                        <label for="dataNascimento" class="form-label">Data Nascimento</label>
+                        <input id="dataNascimento" type="date" class="form-control" required="true">
+                    </div>
+                    <div class="my-3 col-sm-3 col-md-3">
+                        <label for="plano" class="form-label">Escolha seu plano</label>
+                        <select id="plano" class="form-control">
+                            <option value="M">Mensal</option>
+                            <option value="A">Anual</option>
+                        </select>
+                    </div>
+                </div>
+                <button class="btn btn-primary">Enviar</button>
+                <input type="reset" value="Limpar" class="btn btn-secondary">
+                <form>
+        </main>
+    </div>
+</body>
+</html>
